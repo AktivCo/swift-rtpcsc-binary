@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,6 +14,6 @@ let package = Package(
             targets: ["RtPcsc"]),
     ],
     targets: [
-        .binaryTarget(name: "RtPcsc", url: "https://repo.rutoken.ru/repository/xcframework/releases/pcsc-ios/pcsc-ios-xcframework-a7bb4fe0d326e32754b2a0bed4b895c03ebced33.zip", checksum: "620565bb274df87295040e51783d23d387db3e90c3623671c5de989e6d0d8aeb")
+        .binaryTarget(name: "RtPcsc", url: "https://repo.rutoken.ru/repository/xcframework/releases/pcsc-ios/pcsc-ios-xcframework-14110b348c221e3cb079f28726c9ffed46ce2552.zip", checksum: "5f71d1649f1bca16150479c769a2e958c59e22cafc76cd05d120a8c11d8cf818")
     ]
 )
