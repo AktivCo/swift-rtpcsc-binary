@@ -14,6 +14,6 @@ let package = Package(
             targets: ["RtPcsc"]),
     ],
     targets: [
-        .binaryTarget(name: "RtPcsc", url: "https://repo.rutoken.ru/repository/xcframework/releases/pcsc-ios/pcsc-ios-c5382d7a556168ff56d5489fa80a7fdb83fff628.zip", checksum: "8480f9c009c36ef2666ab9c899b8c0f91c9b292eea78af5f45b6a1810da32a81")
+        .binaryTarget(name: "RtPcsc", url: "https://repo.rutoken.ru/repository/xcframework/releases/pcsc-ios/pcsc-ios-941e9a7c84c88b108fab417383432af1432753df.zip", checksum: "daa00529fba48ac515f29de43fdc3574b9ed7ab5a41d1a415eabf7c746826b09")
     ]
 )
